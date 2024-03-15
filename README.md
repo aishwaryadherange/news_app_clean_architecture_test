@@ -29,6 +29,6 @@ Ensure that Flutter and Dart SDK are installed on your system.
 Run flutter pub get to install dependencies.
 Connect a physical device or start an emulator.
 Run flutter run to launch the application.
-Contributors
+
+## Contributors
 Aishwarya Dherange - Developer and maintainer
-ile development, and a full API reference.
