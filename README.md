@@ -10,14 +10,17 @@ This Flutter application is designed to provide users with a seamless experience
    Users have the ability to mark news articles as favorites, which are then stored locally within the app. This feature ensures that users can access their preferred articles even when offline.
 4. Remove Favorites from Local Database
    Should users decide to remove articles from their list of favorites, the app provides functionality to easily delete them from the local database.
-   Architecture
-   Clean Architecture
+##   Architecture
+###   Clean Architecture
    The app follows clean architecture principles to ensure separation of concerns and maintainability. This architecture divides the application into distinct layers: Presentation, Domain, and Data.
-   Retrofit for API Calls
+
+###   Retrofit for API Calls
    Retrofit is used to handle API requests and responses efficiently. It simplifies the process of making network calls and parsing JSON data, providing a robust foundation for interacting with remote servers.
-   BLoC (Business Logic Component) for State Management
+
+###   BLoC (Business Logic Component) for State Management
    BLoC architecture is implemented for managing application state and handling user interactions. BLoC decouples business logic from UI components, promoting a reactive programming paradigm and enhancing code reusability.
-   Setup Instructions
+
+###   Setup Instructions
    To run the Flutter News App locally on your machine, follow these steps:
 
 Clone the repository to your local environment.
